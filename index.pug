@@ -1,0 +1,103 @@
+doctype html
+html(lang='en')
+	head
+		title='Meetup | Aviasales'
+		meta(charset='utf-8')
+		link(rel='stylesheet' type='text/css' href='public/css/style.css')
+
+	body
+		.container
+			.container__head
+				.header
+					.header__logo
+						.logo__img
+							img(src="public/img/logo.png")
+						.logo__text
+							img(src="public/img/logo-text.png")
+							span Bangladesh
+					.header__menu
+						menu.menu
+							li.menu__item
+								a(href="#") Event Details
+							li.menu__item
+								a(href="#") Speakers
+							li.menu__item
+								a(href="#") Sponsors
+							li.menu__item
+								a(href="#") Past Events
+							li.menu__item
+								a(href="#") Contact
+			.container__timer
+				.timer-block
+					.timer-block__time(id='timeClock')
+						span.time__days
+						span.time__hours
+						span.time__minutes
+						span.time__seconds
+					.timer-block__caption
+						.caption
+							span.caption__day days
+							span.caption__hour hours
+							span.caption__min minutes
+							span.caption__sec seconds
+			.container__shot
+				.shot-block
+					.shot-block__img
+						img(src="public/img/hero1.png" class="img__hero hero1")
+						img(src="public/img/hero2.png" class="img__hero hero2")
+						img(src="public/img/hero3.png" class="img__hero hero3")
+						img(src="public/img/hero4.png" class="img__hero hero4")
+						img(src="public/img/hero5.png" class="img__hero hero5")
+				.form-block
+					h2.form-block__title Sign up for our event
+					.form-block__registration
+						form.registration
+							input(type="text" class="registration__input" placeholder="Enter your name")
+							input(type="email" class="registration__input" placeholder="Enter your email")
+							input(type="tel" class="registration__input" placeholder="Phone number")
+							input(type="text" class="registration__input" placeholder="Envato Username")
+							input(type="submit" class="registration__button" value="Let me in!")
+					.form-block__footnote
+						span Hurry up, Limited seats availble #[br]
+						span *we will never spam your email
+				.short-desc
+					h1.short-desc__title Welcome!
+					.short-desc__desc
+						p The biggest envato community meetup in Bangladesh is happening right now! And you can be a part of it too... ;)
+						p Get together with members of the Envato community to talk shop, trade war stories, make new friends and see the faces behind the avatars. Whether you’re an author on Envato Market, a client on Envato Studio, or a learner on Tuts+, you are invited!
+						p It doesn’t matter as long as you have the motivation and interest to work at the envato and bring cookies to our event. Just kidding, but we don’t mind having more cookies! ;)
+						p Head over and fill up the sign up form here so that we can keep track of our guests. Don’t forget to register on our nvite page here too!
+				.treangle
+
+
+			.container__middle-block
+				.middle-block
+					.card
+						img.card__img(src='public/img/det1.png')
+						h1.card__title Community
+						p.card__desc Meet the Community you’ve always talked with, in real life! This meetup will be all about authors engaging each other with interesting coversation and topics. We will have loads of fun.
+					.card
+						img.card__img(src='public/img/det2.png')
+						h1.card__title Talk Shop
+						p.card__desc In this meetup you will get to know the marketplaces better, because that’s why were all here for right? Learn a few tips and tricks from experienced authors from all over the country.
+					.card
+						img.card__img(src='public/img/det3.png')
+						h1.card__title War Stories
+						p.card__desc Gather round fellow authors!#[br]Hear the stories of success from your favorite authors and learn how they we able to tackle their problems and become successful.
+			.container__past-event
+				.past-event
+					h1.past-event__title Past Events
+					p.past-event__desc  Check out the photos of our previous events where we rocked with a lot of Famous and enthusiatic authors! We're always planning to make our future events feel fresh and fun to be at. :)
+					.past-event__photo-block
+						.photo-block
+							.photo-block__img
+								.photo-block__img_blue
+								.photo-block__img_green
+							.photo-block__img
+								.photo-block__img_yellow
+								.photo-block__img_orange
+					button.past-event__button View More
+	script(src="public/js/index.js")
+
+
+
